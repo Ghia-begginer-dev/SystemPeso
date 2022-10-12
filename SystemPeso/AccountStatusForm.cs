@@ -25,13 +25,17 @@ namespace SystemPeso
             timer1.Start();
         }
 
+        /*
+         * Adds UserCard User Controls to FLowLayoutPanel dynamically
+         * Runs on every tick of timer1
+         */
         private void GetUsers()
         {
             DatabaseHelper helper = new DatabaseHelper();
             
             AccountGrid.Controls.Clear();
             
-            foreach (UserModel user in helper.ReadUsers("SELECT * FROM tbl_users"))
+            foreach (UserModel user in helper.ReadUsers("SELECT * FROM tbl_users")) //helper.ReadUsers returns List of UserModels from query
             {
                 UserCard newCard = new UserCard();
                 

@@ -22,7 +22,6 @@ namespace SystemPeso
         private void EventsForm_Load(object sender, EventArgs e)
         {
             DateTxt.Text = CalendarForm.static_year +"-"+CalendarForm.static_month+"-"+ UserControlDays.static_day ;
-
         }
       
         private void SaveBTN_Click(object sender, EventArgs e)
