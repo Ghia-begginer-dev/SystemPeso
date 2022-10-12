@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30F5C398-E30B-4A52-8C1A-0F55D95FC91C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SystemPeso</RootNamespace>
+    <AssemblyName>SystemPeso</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI2, Version=2.0.3.2, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs2Form.Designer.cs">
+      <DependentUpon>AboutUs2Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUsForm.Designer.cs">
+      <DependentUpon>AboutUsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountStatusForm.Designer.cs">
+      <DependentUpon>AccountStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddApplicants1NSRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddApplicants1NSRP.Designer.cs">
+      <DependentUpon>AddApplicants1NSRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddApplicants2NSRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddApplicants2NSRP.Designer.cs">
+      <DependentUpon>AddApplicants2NSRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddApplicants3NSRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddApplicants3NSRP.Designer.cs">
+      <DependentUpon>AddApplicants3NSRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddApplicants4NSRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddApplicants4NSRP.Designer.cs">
+      <DependentUpon>AddApplicants4NSRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployer1NSRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployer1NSRP.Designer.cs">
+      <DependentUpon>AddEmployer1NSRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployer2NSRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployer2NSRP.Designer.cs">
+      <DependentUpon>AddEmployer2NSRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployer3NSRP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployer3NSRP.Designer.cs">
+      <DependentUpon>AddEmployer3NSRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddHomeowner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddHomeowner.Designer.cs">
+      <DependentUpon>AddHomeowner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashForm.Designer.cs">
+      <DependentUpon>AdminDashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicantsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicantsForm.Designer.cs">
+      <DependentUpon>ApplicantsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicantsProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicantsProfile.Designer.cs">
+      <DependentUpon>ApplicantsProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApprovedPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApprovedPanel.Designer.cs">
+      <DependentUpon>ApprovedPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalendarForm.Designer.cs">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmCPPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmCPPanel.Designer.cs">
+      <DependentUpon>ConfirmCPPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreatePost2Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreatePost2Panel.Designer.cs">
+      <DependentUpon>CreatePost2Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreatePost3Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreatePost3Panel.Designer.cs">
+      <DependentUpon>CreatePost3Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicantNSRP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApplicantNSRP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeniedPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeniedPanel.Designer.cs">
+      <DependentUpon>DeniedPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmailForm.Designer.cs">
+      <DependentUpon>EmailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployerProfile.Designer.cs">
+      <DependentUpon>EmployerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployersForm.Designer.cs">
+      <DependentUpon>EmployersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventsForm.Designer.cs">
+      <DependentUpon>EventsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeownerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeownerForm.Designer.cs">
+      <DependentUpon>HomeownerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeownerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeownerProfile.Designer.cs">
+      <DependentUpon>HomeownerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobPostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobPostForm.Designer.cs">
+      <DependentUpon>JobPostForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobPostPosted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobPostPosted.Designer.cs">
+      <DependentUpon>JobPostPosted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobPostReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobPostReports.Designer.cs">
+      <DependentUpon>JobPostReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module.cs" />
+    <Compile Include="PendingApprovalPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PendingApprovalPanel.Designer.cs">
+      <DependentUpon>PendingApprovalPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCJobPostForm\CreatePostPanel1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCJobPostForm\CreatePostPanel1.Designer.cs">
+      <DependentUpon>CreatePostPanel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCJobPostForm\CreatePostPanel2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCJobPostForm\CreatePostPanel2.Designer.cs">
+      <DependentUpon>CreatePostPanel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCJobPostForm\CreatePostPanel3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCJobPostForm\CreatePostPanel3.Designer.cs">
+      <DependentUpon>CreatePostPanel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CircularPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCJobPostPosted.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCJobPostPosted.Designer.cs">
+      <DependentUpon>UCJobPostPosted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCPendingEmployerAcc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCPendingEmployerAcc.Designer.cs">
+      <DependentUpon>UCPendingEmployerAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCPendingHomeownerAcc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCPendingHomeownerAcc.Designer.cs">
+      <DependentUpon>UCPendingHomeownerAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCPendingSkilledAcc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCPendingSkilledAcc.Designer.cs">
+      <DependentUpon>UCPendingSkilledAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UnderLineTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UnderLineTextBox.Designer.cs">
+      <DependentUpon>UnderLineTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlBlank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlBlank.Designer.cs">
+      <DependentUpon>UserControlBlank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserControlDays.Designer.cs">
+      <DependentUpon>UserControlDays.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs2Form.resx">
+      <DependentUpon>AboutUs2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUsForm.resx">
+      <DependentUpon>AboutUsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountStatusForm.resx">
+      <DependentUpon>AccountStatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddApplicants1NSRP.resx">
+      <DependentUpon>AddApplicants1NSRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddApplicants2NSRP.resx">
+      <DependentUpon>AddApplicants2NSRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddApplicants3NSRP.resx">
+      <DependentUpon>AddApplicants3NSRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddApplicants4NSRP.resx">
+      <DependentUpon>AddApplicants4NSRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployer1NSRP.resx">
+      <DependentUpon>AddEmployer1NSRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployer2NSRP.resx">
+      <DependentUpon>AddEmployer2NSRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployer3NSRP.resx">
+      <DependentUpon>AddEmployer3NSRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddHomeowner.resx">
+      <DependentUpon>AddHomeowner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashForm.resx">
+      <DependentUpon>AdminDashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicantsForm.resx">
+      <DependentUpon>ApplicantsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicantsProfile.resx">
+      <DependentUpon>ApplicantsProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApprovedPanel.resx">
+      <DependentUpon>ApprovedPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalendarForm.resx">
+      <DependentUpon>CalendarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmCPPanel.resx">
+      <DependentUpon>ConfirmCPPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreatePost2Panel.resx">
+      <DependentUpon>CreatePost2Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreatePost3Panel.resx">
+      <DependentUpon>CreatePost3Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicantNSRP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ApplicantNSRP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeniedPanel.resx">
+      <DependentUpon>DeniedPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmailForm.resx">
+      <DependentUpon>EmailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployerProfile.resx">
+      <DependentUpon>EmployerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployersForm.resx">
+      <DependentUpon>EmployersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventsForm.resx">
+      <DependentUpon>EventsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeownerForm.resx">
+      <DependentUpon>HomeownerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeownerProfile.resx">
+      <DependentUpon>HomeownerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobPostForm.resx">
+      <DependentUpon>JobPostForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobPostPosted.resx">
+      <DependentUpon>JobPostPosted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobPostReports.resx">
+      <DependentUpon>JobPostReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingApprovalPanel.resx">
+      <DependentUpon>PendingApprovalPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCJobPostForm\CreatePostPanel1.resx">
+      <DependentUpon>CreatePostPanel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCJobPostForm\CreatePostPanel2.resx">
+      <DependentUpon>CreatePostPanel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCJobPostForm\CreatePostPanel3.resx">
+      <DependentUpon>CreatePostPanel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCJobPostPosted.resx">
+      <DependentUpon>UCJobPostPosted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCPendingEmployerAcc.resx">
+      <DependentUpon>UCPendingEmployerAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCPendingHomeownerAcc.resx">
+      <DependentUpon>UCPendingHomeownerAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCPendingSkilledAcc.resx">
+      <DependentUpon>UCPendingSkilledAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UnderLineTextBox.resx">
+      <DependentUpon>UnderLineTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControlBlank.resx">
+      <DependentUpon>UserControlBlank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserControlDays.resx">
+      <DependentUpon>UserControlDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %28black 16%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize %28box%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-workers-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-employee-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-at-home-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-post-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-check-list-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-about-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1642427749670-f20e2e76ed8c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1635492491273-455af7728453.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1532680678473-a16f2cda8e43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifiying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powerpoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft-access.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticky-notes %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-workers-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-employee-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-at-home-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Metrics-amico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-layout-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-workers-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-employee-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-at-home-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-brochure-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-check-list-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-about-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-at-home-701.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-x-40.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
