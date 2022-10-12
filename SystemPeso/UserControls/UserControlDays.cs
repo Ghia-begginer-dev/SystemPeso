@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,7 @@ namespace SystemPeso.UserControls
 
         private void UserControlDays_Load(object sender, EventArgs e)
         {
-
+            timer1.Start();
         }
 
         public void days(int numday)
@@ -34,7 +35,6 @@ namespace SystemPeso.UserControls
         private void UserControlDays_Click(object sender, EventArgs e)
         {
             static_day = DaysLbl.Text;
-            timer1.Start();
             EventsForm eventsForm = new EventsForm();
             eventsForm.Show();
         }
@@ -46,15 +46,19 @@ namespace SystemPeso.UserControls
             {
                 MySqlConnection conn = new MySqlConnection(connString);
                 conn.Open();
-                String sql = $"SELECT * FROM tbl_calendar where date = {CalendarForm.static_month}/{DaysLbl.Text}/{CalendarForm.static_year} LIMIT 1";
+                String sql = $"SELECT * FROM tbl_calendar where Date = {CalendarForm.static_year}-{CalendarForm.static_month}-{DaysLbl.Text} LIMIT 1";
                 MySqlCommand cmd = conn.CreateCommand();
                 cmd.CommandText = sql;
-                //cmd.Parameters.AddWithValue("date", CalendarForm.static_year + "-" + CalendarForm.static_month + "-" + DaysLbl.Text);
                 MySqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
+                
+                string Evnt = "Event:";
+                if (reader.Read())
                 {
-                    EventLbl.Text = reader["event"].ToString();
+                    Evnt = reader["Event"].ToString();
+                    Debug.WriteLine(reader["Event"].ToString());
                 }
+
+                EventLbl.Text = Evnt;
 
                 reader.Dispose();
                 cmd.Dispose();
@@ -63,6 +67,8 @@ namespace SystemPeso.UserControls
             catch (Exception e) {
               MessageBox.Show (e.ToString());
             }
+            
+            //Debug.WriteLine($"SELECT * FROM tbl_calendar where Date = {CalendarForm.static_year}-{CalendarForm.static_month}-{DaysLbl.Text} LIMIT 1");
          }
           
         private void timer1_Tick(object sender, EventArgs e)

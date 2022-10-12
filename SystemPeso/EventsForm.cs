@@ -40,6 +40,8 @@ namespace SystemPeso
             MessageBox.Show("Saved");
             cmd.Dispose();
             conn.Close();
+            
+            MessageBox.Show("Saved");
         }
     }
 }

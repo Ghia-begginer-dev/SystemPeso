@@ -44,7 +44,6 @@ namespace SystemPeso
 
             System.Net.Mail.Attachment attachment;
             attachment = new System.Net.Mail.Attachment(LocationLbl.Text);
-            Mail.Attachment.Add(attachment);
             
 
             MailAddress FromEmail = new MailAddress("SystemPeso@gmail.com", "summer smith");
@@ -54,6 +53,7 @@ namespace SystemPeso
                 From = FromEmail,
                 Subject = SubjectTB.Text,
                 Body = MessageTB.Text,
+                Attachments = { attachment }
 
             };
 
