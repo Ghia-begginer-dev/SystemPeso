@@ -243,6 +243,8 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\DatabaseHelper.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Module.cs" />
     <Compile Include="PendingApprovalPanel.cs">
       <SubType>Form</SubType>
@@ -316,6 +318,12 @@
     </Compile>
     <Compile Include="UserControls\UnderLineTextBox.Designer.cs">
       <DependentUpon>UnderLineTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserCard.Designer.cs">
+      <DependentUpon>UserCard.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UserControlBlank.cs">
       <SubType>UserControl</SubType>
@@ -457,6 +465,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UnderLineTextBox.resx">
       <DependentUpon>UnderLineTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserCard.resx">
+      <DependentUpon>UserCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UserControlBlank.resx">
       <DependentUpon>UserControlBlank.cs</DependentUpon>

@@ -16,13 +16,12 @@ namespace SystemPeso.UCJobPostForm
         MySqlConnection cn;
         MySqlCommand cm;
         MySqlDataReader dr;
-        Module mocon = new Module();
 
         public CreatePostPanel1()
         {
             InitializeComponent();
 
-            cn = new MySqlConnection(mocon.mydbConnection());
+            cn = new MySqlConnection(Module.mydbConnection);
         }
     }
 }

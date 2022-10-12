@@ -14,7 +14,6 @@ namespace SystemPeso.UserControls
 {
     public partial class UserControlDays : UserControl
     {
-        String connString = "server=localhost;user id=root;database=db_calendar;sslmode=none;";
 
         public static string static_day;
         public UserControlDays()
@@ -44,7 +43,7 @@ namespace SystemPeso.UserControls
         {
             try
             {
-                MySqlConnection conn = new MySqlConnection(connString);
+                MySqlConnection conn = new MySqlConnection(Module.mydbConnection);
                 conn.Open();
                 String sql = $"SELECT * FROM tbl_calendar where Date = {CalendarForm.static_year}-{CalendarForm.static_month}-{DaysLbl.Text} LIMIT 1";
                 MySqlCommand cmd = conn.CreateCommand();

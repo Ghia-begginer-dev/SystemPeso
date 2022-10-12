@@ -8,10 +8,9 @@ namespace SystemPeso
 {
     class Module
     {
-        public string mydbConnection()
+        public static string mydbConnection
         {
-            string con = "server=localhost;user id=root;password=;database=";
-            return con;
+            get => "server=localhost;user id=root;password=;database=db-peso";
         }
     }
 }

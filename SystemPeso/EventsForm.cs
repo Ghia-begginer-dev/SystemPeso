@@ -14,8 +14,6 @@ namespace SystemPeso
 {
     public partial class EventsForm : Form
     {
-        //create a connectionstring
-        String connString = "server=localhost;user id=root;database=db_calendar;sslmode=none";
         public EventsForm()
         {
             InitializeComponent();
@@ -29,7 +27,7 @@ namespace SystemPeso
       
         private void SaveBTN_Click(object sender, EventArgs e)
         {
-            MySqlConnection conn = new MySqlConnection(connString);
+            MySqlConnection conn = new MySqlConnection(Module.mydbConnection);
             conn.Open();
             String sql = "INSERT INTO tbl_calendar(event,date)values(@Event,@Date)";
             MySqlCommand cmd = conn.CreateCommand();
@@ -40,8 +38,6 @@ namespace SystemPeso
             MessageBox.Show("Saved");
             cmd.Dispose();
             conn.Close();
-            
-            MessageBox.Show("Saved");
         }
     }
 }

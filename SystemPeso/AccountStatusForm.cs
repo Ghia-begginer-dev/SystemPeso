@@ -7,7 +7,10 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 using System.Windows.Forms;
+using SystemPeso.Models;
+using SystemPeso.UserControls;
 
 namespace SystemPeso
 {
@@ -18,6 +21,26 @@ namespace SystemPeso
         {
             InitializeComponent();
             this.Padding = new Padding(bordersize);
+            
+            timer1.Start();
+        }
+
+        private void GetUsers()
+        {
+            DatabaseHelper helper = new DatabaseHelper();
+            
+            AccountGrid.Controls.Clear();
+            
+            foreach (UserModel user in helper.ReadUsers("SELECT * FROM tbl_users"))
+            {
+                UserCard newCard = new UserCard();
+                
+                newCard.SetName(user.Name);
+                newCard.setInfo(user.Info);
+                newCard.SetApproved(user.Approved);
+                
+                AccountGrid.Controls.Add(newCard);
+            }
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -132,6 +155,9 @@ namespace SystemPeso
             this.Hide();
         }
 
-       
+        private void timer1_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            GetUsers();
+        }
     }
 }
