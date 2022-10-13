@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SystemPeso.UserControls;
 using System.Diagnostics;
+using SystemPeso.ChatBot.Windows;
 
 namespace SystemPeso
 {
@@ -329,6 +330,16 @@ namespace SystemPeso
 
         }
 
-       
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            /*
+             * <summary>
+             * Instantiates and shows new WPF ChatBot Window
+             * </summary>
+             */
+            ChatbotWindow window = new ChatbotWindow();
+            window.Show();
+        }
     }
 }

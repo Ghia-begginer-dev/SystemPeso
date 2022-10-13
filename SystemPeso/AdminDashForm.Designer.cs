@@ -146,33 +146,33 @@ namespace SystemPeso
             this.CoreModulesPanel.Controls.Add(this.CoreModulesLBL);
             this.CoreModulesPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.CoreModulesPanel.Location = new System.Drawing.Point(0, 0);
+            this.CoreModulesPanel.Margin = new System.Windows.Forms.Padding(4);
             this.CoreModulesPanel.Name = "CoreModulesPanel";
-            this.CoreModulesPanel.Size = new System.Drawing.Size(200, 729);
+            this.CoreModulesPanel.Size = new System.Drawing.Size(267, 897);
             this.CoreModulesPanel.TabIndex = 0;
             // 
             // MenuPanel
             // 
-            this.MenuPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.MenuPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.MenuPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.MenuPanel.Controls.Add(this.MenuBTN);
             this.MenuPanel.Controls.Add(this.SystemLBL);
-            this.MenuPanel.Location = new System.Drawing.Point(3, 3);
+            this.MenuPanel.Location = new System.Drawing.Point(4, 4);
+            this.MenuPanel.Margin = new System.Windows.Forms.Padding(4);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(197, 65);
+            this.MenuPanel.Size = new System.Drawing.Size(263, 80);
             this.MenuPanel.TabIndex = 2;
             // 
             // MenuBTN
             // 
-            this.MenuBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.MenuBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.MenuBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.MenuBTN.FlatAppearance.BorderSize = 0;
             this.MenuBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MenuBTN.Image = global::SystemPeso.Properties.Resources.icons8_menu_32;
-            this.MenuBTN.Location = new System.Drawing.Point(152, 9);
+            this.MenuBTN.Location = new System.Drawing.Point(203, 11);
+            this.MenuBTN.Margin = new System.Windows.Forms.Padding(4);
             this.MenuBTN.Name = "MenuBTN";
-            this.MenuBTN.Size = new System.Drawing.Size(39, 44);
+            this.MenuBTN.Size = new System.Drawing.Size(52, 54);
             this.MenuBTN.TabIndex = 0;
             this.MenuBTN.UseVisualStyleBackColor = false;
             // 
@@ -181,26 +181,26 @@ namespace SystemPeso
             this.SystemLBL.AutoSize = true;
             this.SystemLBL.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SystemLBL.ForeColor = System.Drawing.Color.White;
-            this.SystemLBL.Location = new System.Drawing.Point(17, 25);
+            this.SystemLBL.Location = new System.Drawing.Point(23, 31);
+            this.SystemLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SystemLBL.Name = "SystemLBL";
-            this.SystemLBL.Size = new System.Drawing.Size(63, 20);
+            this.SystemLBL.Size = new System.Drawing.Size(78, 22);
             this.SystemLBL.TabIndex = 0;
             this.SystemLBL.Text = "I Found";
             // 
             // LogoutBTN
             // 
-            this.LogoutBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LogoutBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.LogoutBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.LogoutBTN.FlatAppearance.BorderSize = 0;
             this.LogoutBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LogoutBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogoutBTN.ForeColor = System.Drawing.Color.White;
-            this.LogoutBTN.Image = global::SystemPeso.Properties.Resources.icons8_log_out_32;
-            this.LogoutBTN.Location = new System.Drawing.Point(0, 671);
+            this.LogoutBTN.Location = new System.Drawing.Point(0, 826);
+            this.LogoutBTN.Margin = new System.Windows.Forms.Padding(4);
             this.LogoutBTN.Name = "LogoutBTN";
-            this.LogoutBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.LogoutBTN.Size = new System.Drawing.Size(200, 51);
+            this.LogoutBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.LogoutBTN.Size = new System.Drawing.Size(267, 63);
             this.LogoutBTN.TabIndex = 1;
             this.LogoutBTN.Tag = "Logout";
             this.LogoutBTN.Text = "   Logout";
@@ -211,18 +211,17 @@ namespace SystemPeso
             // 
             // AboutUsBTN
             // 
-            this.AboutUsBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.AboutUsBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.AboutUsBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.AboutUsBTN.FlatAppearance.BorderSize = 0;
             this.AboutUsBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AboutUsBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AboutUsBTN.ForeColor = System.Drawing.Color.White;
-            this.AboutUsBTN.Image = global::SystemPeso.Properties.Resources.icons8_about_321;
-            this.AboutUsBTN.Location = new System.Drawing.Point(0, 615);
+            this.AboutUsBTN.Location = new System.Drawing.Point(0, 757);
+            this.AboutUsBTN.Margin = new System.Windows.Forms.Padding(4);
             this.AboutUsBTN.Name = "AboutUsBTN";
-            this.AboutUsBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.AboutUsBTN.Size = new System.Drawing.Size(200, 51);
+            this.AboutUsBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.AboutUsBTN.Size = new System.Drawing.Size(267, 63);
             this.AboutUsBTN.TabIndex = 1;
             this.AboutUsBTN.Tag = "About us";
             this.AboutUsBTN.Text = "   About us";
@@ -233,18 +232,17 @@ namespace SystemPeso
             // 
             // SettingsBTN
             // 
-            this.SettingsBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SettingsBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.SettingsBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.SettingsBTN.FlatAppearance.BorderSize = 0;
             this.SettingsBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SettingsBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SettingsBTN.ForeColor = System.Drawing.Color.White;
-            this.SettingsBTN.Image = global::SystemPeso.Properties.Resources.icons8_settings_321;
-            this.SettingsBTN.Location = new System.Drawing.Point(0, 559);
+            this.SettingsBTN.Location = new System.Drawing.Point(0, 688);
+            this.SettingsBTN.Margin = new System.Windows.Forms.Padding(4);
             this.SettingsBTN.Name = "SettingsBTN";
-            this.SettingsBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.SettingsBTN.Size = new System.Drawing.Size(200, 51);
+            this.SettingsBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.SettingsBTN.Size = new System.Drawing.Size(267, 63);
             this.SettingsBTN.TabIndex = 1;
             this.SettingsBTN.Tag = "Settings";
             this.SettingsBTN.Text = "   Settings";
@@ -255,18 +253,17 @@ namespace SystemPeso
             // 
             // StatusBTN
             // 
-            this.StatusBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.StatusBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.StatusBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.StatusBTN.FlatAppearance.BorderSize = 0;
             this.StatusBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.StatusBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatusBTN.ForeColor = System.Drawing.Color.White;
-            this.StatusBTN.Image = global::SystemPeso.Properties.Resources.icons8_check_list_321;
-            this.StatusBTN.Location = new System.Drawing.Point(0, 426);
+            this.StatusBTN.Location = new System.Drawing.Point(0, 524);
+            this.StatusBTN.Margin = new System.Windows.Forms.Padding(4);
             this.StatusBTN.Name = "StatusBTN";
-            this.StatusBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.StatusBTN.Size = new System.Drawing.Size(200, 51);
+            this.StatusBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.StatusBTN.Size = new System.Drawing.Size(267, 63);
             this.StatusBTN.TabIndex = 1;
             this.StatusBTN.Tag = "Status";
             this.StatusBTN.Text = "   Status";
@@ -277,18 +274,17 @@ namespace SystemPeso
             // 
             // JobPostBTN
             // 
-            this.JobPostBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.JobPostBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.JobPostBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.JobPostBTN.FlatAppearance.BorderSize = 0;
             this.JobPostBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.JobPostBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JobPostBTN.ForeColor = System.Drawing.Color.White;
-            this.JobPostBTN.Image = global::SystemPeso.Properties.Resources.icons8_brochure_32;
-            this.JobPostBTN.Location = new System.Drawing.Point(0, 369);
+            this.JobPostBTN.Location = new System.Drawing.Point(0, 454);
+            this.JobPostBTN.Margin = new System.Windows.Forms.Padding(4);
             this.JobPostBTN.Name = "JobPostBTN";
-            this.JobPostBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.JobPostBTN.Size = new System.Drawing.Size(200, 51);
+            this.JobPostBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.JobPostBTN.Size = new System.Drawing.Size(267, 63);
             this.JobPostBTN.TabIndex = 1;
             this.JobPostBTN.Tag = "Job Post";
             this.JobPostBTN.Text = "   Job Post";
@@ -299,18 +295,17 @@ namespace SystemPeso
             // 
             // HomeownerBTN
             // 
-            this.HomeownerBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.HomeownerBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.HomeownerBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.HomeownerBTN.FlatAppearance.BorderSize = 0;
             this.HomeownerBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.HomeownerBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HomeownerBTN.ForeColor = System.Drawing.Color.White;
-            this.HomeownerBTN.Image = global::SystemPeso.Properties.Resources.icons8_person_at_home_321;
-            this.HomeownerBTN.Location = new System.Drawing.Point(0, 312);
+            this.HomeownerBTN.Location = new System.Drawing.Point(0, 384);
+            this.HomeownerBTN.Margin = new System.Windows.Forms.Padding(4);
             this.HomeownerBTN.Name = "HomeownerBTN";
-            this.HomeownerBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.HomeownerBTN.Size = new System.Drawing.Size(200, 51);
+            this.HomeownerBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.HomeownerBTN.Size = new System.Drawing.Size(267, 63);
             this.HomeownerBTN.TabIndex = 1;
             this.HomeownerBTN.Tag = "Homeowner";
             this.HomeownerBTN.Text = " Homeowner";
@@ -321,18 +316,17 @@ namespace SystemPeso
             // 
             // EmployersBTN
             // 
-            this.EmployersBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EmployersBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.EmployersBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.EmployersBTN.FlatAppearance.BorderSize = 0;
             this.EmployersBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EmployersBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmployersBTN.ForeColor = System.Drawing.Color.White;
-            this.EmployersBTN.Image = global::SystemPeso.Properties.Resources.icons8_employee_321;
-            this.EmployersBTN.Location = new System.Drawing.Point(0, 255);
+            this.EmployersBTN.Location = new System.Drawing.Point(0, 314);
+            this.EmployersBTN.Margin = new System.Windows.Forms.Padding(4);
             this.EmployersBTN.Name = "EmployersBTN";
-            this.EmployersBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.EmployersBTN.Size = new System.Drawing.Size(200, 51);
+            this.EmployersBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.EmployersBTN.Size = new System.Drawing.Size(267, 63);
             this.EmployersBTN.TabIndex = 1;
             this.EmployersBTN.Tag = "Employers";
             this.EmployersBTN.Text = "   Employers";
@@ -343,18 +337,17 @@ namespace SystemPeso
             // 
             // ApplicantsBTN
             // 
-            this.ApplicantsBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ApplicantsBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.ApplicantsBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.ApplicantsBTN.FlatAppearance.BorderSize = 0;
             this.ApplicantsBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ApplicantsBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ApplicantsBTN.ForeColor = System.Drawing.Color.White;
-            this.ApplicantsBTN.Image = global::SystemPeso.Properties.Resources.icons8_workers_321;
-            this.ApplicantsBTN.Location = new System.Drawing.Point(0, 198);
+            this.ApplicantsBTN.Location = new System.Drawing.Point(0, 244);
+            this.ApplicantsBTN.Margin = new System.Windows.Forms.Padding(4);
             this.ApplicantsBTN.Name = "ApplicantsBTN";
-            this.ApplicantsBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.ApplicantsBTN.Size = new System.Drawing.Size(200, 51);
+            this.ApplicantsBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.ApplicantsBTN.Size = new System.Drawing.Size(267, 63);
             this.ApplicantsBTN.TabIndex = 1;
             this.ApplicantsBTN.Tag = "Applicants";
             this.ApplicantsBTN.Text = "   Applicants";
@@ -365,18 +358,17 @@ namespace SystemPeso
             // 
             // DashboardBTN
             // 
-            this.DashboardBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DashboardBTN.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.DashboardBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(59)))), ((int)(((byte)(183)))));
             this.DashboardBTN.FlatAppearance.BorderSize = 0;
             this.DashboardBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DashboardBTN.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DashboardBTN.ForeColor = System.Drawing.Color.White;
-            this.DashboardBTN.Image = global::SystemPeso.Properties.Resources.icons8_dashboard_layout_32;
-            this.DashboardBTN.Location = new System.Drawing.Point(0, 141);
+            this.DashboardBTN.Location = new System.Drawing.Point(0, 174);
+            this.DashboardBTN.Margin = new System.Windows.Forms.Padding(4);
             this.DashboardBTN.Name = "DashboardBTN";
-            this.DashboardBTN.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.DashboardBTN.Size = new System.Drawing.Size(200, 51);
+            this.DashboardBTN.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.DashboardBTN.Size = new System.Drawing.Size(267, 63);
             this.DashboardBTN.TabIndex = 1;
             this.DashboardBTN.Tag = "Dashboard";
             this.DashboardBTN.Text = "   Dashboard";
@@ -389,9 +381,10 @@ namespace SystemPeso
             this.CoreModulesLBL.AutoSize = true;
             this.CoreModulesLBL.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CoreModulesLBL.ForeColor = System.Drawing.Color.White;
-            this.CoreModulesLBL.Location = new System.Drawing.Point(39, 101);
+            this.CoreModulesLBL.Location = new System.Drawing.Point(52, 124);
+            this.CoreModulesLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CoreModulesLBL.Name = "CoreModulesLBL";
-            this.CoreModulesLBL.Size = new System.Drawing.Size(113, 20);
+            this.CoreModulesLBL.Size = new System.Drawing.Size(136, 22);
             this.CoreModulesLBL.TabIndex = 0;
             this.CoreModulesLBL.Text = "Core Modules";
             // 
@@ -403,9 +396,10 @@ namespace SystemPeso
             this.TitleBarPanel.Controls.Add(this.MaxBTN);
             this.TitleBarPanel.Controls.Add(this.ExitBTN);
             this.TitleBarPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TitleBarPanel.Location = new System.Drawing.Point(200, 0);
+            this.TitleBarPanel.Location = new System.Drawing.Point(267, 0);
+            this.TitleBarPanel.Margin = new System.Windows.Forms.Padding(4);
             this.TitleBarPanel.Name = "TitleBarPanel";
-            this.TitleBarPanel.Size = new System.Drawing.Size(1170, 48);
+            this.TitleBarPanel.Size = new System.Drawing.Size(1560, 59);
             this.TitleBarPanel.TabIndex = 1;
             this.TitleBarPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
@@ -413,9 +407,10 @@ namespace SystemPeso
             // 
             this.DashboardLBL.AutoSize = true;
             this.DashboardLBL.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DashboardLBL.Location = new System.Drawing.Point(15, 13);
+            this.DashboardLBL.Location = new System.Drawing.Point(20, 16);
+            this.DashboardLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.DashboardLBL.Name = "DashboardLBL";
-            this.DashboardLBL.Size = new System.Drawing.Size(95, 19);
+            this.DashboardLBL.Size = new System.Drawing.Size(116, 23);
             this.DashboardLBL.TabIndex = 1;
             this.DashboardLBL.Text = "Dashboard";
             // 
@@ -424,10 +419,10 @@ namespace SystemPeso
             this.MinBTN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MinBTN.FlatAppearance.BorderSize = 0;
             this.MinBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MinBTN.Image = global::SystemPeso.Properties.Resources.minimize__24_;
-            this.MinBTN.Location = new System.Drawing.Point(1036, 7);
+            this.MinBTN.Location = new System.Drawing.Point(1381, 9);
+            this.MinBTN.Margin = new System.Windows.Forms.Padding(4);
             this.MinBTN.Name = "MinBTN";
-            this.MinBTN.Size = new System.Drawing.Size(37, 34);
+            this.MinBTN.Size = new System.Drawing.Size(49, 42);
             this.MinBTN.TabIndex = 0;
             this.MinBTN.UseVisualStyleBackColor = true;
             this.MinBTN.Click += new System.EventHandler(this.MinBTN_Click_1);
@@ -437,10 +432,10 @@ namespace SystemPeso
             this.MaxBTN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MaxBTN.FlatAppearance.BorderSize = 0;
             this.MaxBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MaxBTN.Image = global::SystemPeso.Properties.Resources.maximize__box_;
-            this.MaxBTN.Location = new System.Drawing.Point(1079, 7);
+            this.MaxBTN.Location = new System.Drawing.Point(1439, 9);
+            this.MaxBTN.Margin = new System.Windows.Forms.Padding(4);
             this.MaxBTN.Name = "MaxBTN";
-            this.MaxBTN.Size = new System.Drawing.Size(37, 34);
+            this.MaxBTN.Size = new System.Drawing.Size(49, 42);
             this.MaxBTN.TabIndex = 0;
             this.MaxBTN.UseVisualStyleBackColor = true;
             this.MaxBTN.Click += new System.EventHandler(this.MaxBTN_Click_1);
@@ -450,10 +445,10 @@ namespace SystemPeso
             this.ExitBTN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ExitBTN.FlatAppearance.BorderSize = 0;
             this.ExitBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExitBTN.Image = global::SystemPeso.Properties.Resources.cancel__black_16_;
-            this.ExitBTN.Location = new System.Drawing.Point(1122, 7);
+            this.ExitBTN.Location = new System.Drawing.Point(1496, 9);
+            this.ExitBTN.Margin = new System.Windows.Forms.Padding(4);
             this.ExitBTN.Name = "ExitBTN";
-            this.ExitBTN.Size = new System.Drawing.Size(37, 34);
+            this.ExitBTN.Size = new System.Drawing.Size(49, 42);
             this.ExitBTN.TabIndex = 0;
             this.ExitBTN.UseVisualStyleBackColor = true;
             this.ExitBTN.Click += new System.EventHandler(this.ExitBTN_Click);
@@ -463,10 +458,10 @@ namespace SystemPeso
             this.SearchBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
             this.SearchBTN.FlatAppearance.BorderSize = 0;
             this.SearchBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SearchBTN.Image = global::SystemPeso.Properties.Resources.magnifiying_glass;
-            this.SearchBTN.Location = new System.Drawing.Point(932, 35);
+            this.SearchBTN.Location = new System.Drawing.Point(1243, 43);
+            this.SearchBTN.Margin = new System.Windows.Forms.Padding(4);
             this.SearchBTN.Name = "SearchBTN";
-            this.SearchBTN.Size = new System.Drawing.Size(42, 37);
+            this.SearchBTN.Size = new System.Drawing.Size(56, 46);
             this.SearchBTN.TabIndex = 17;
             this.toolTip1.SetToolTip(this.SearchBTN, "Search");
             this.SearchBTN.UseVisualStyleBackColor = false;
@@ -483,9 +478,10 @@ namespace SystemPeso
             this.GreetingsLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GreetingsLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GreetingsLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.GreetingsLabel.Location = new System.Drawing.Point(27, 29);
+            this.GreetingsLabel.Location = new System.Drawing.Point(36, 36);
+            this.GreetingsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.GreetingsLabel.Name = "GreetingsLabel";
-            this.GreetingsLabel.Size = new System.Drawing.Size(175, 19);
+            this.GreetingsLabel.Size = new System.Drawing.Size(222, 23);
             this.GreetingsLabel.TabIndex = 12;
             this.GreetingsLabel.Text = "Good Morning , Ghia!";
             // 
@@ -495,9 +491,10 @@ namespace SystemPeso
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(220)))), ((int)(((byte)(225)))));
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(28, 53);
+            this.label2.Location = new System.Drawing.Point(37, 65);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 16);
+            this.label2.Size = new System.Drawing.Size(198, 19);
             this.label2.TabIndex = 12;
             this.label2.Text = "Have a wonderful Day!";
             // 
@@ -524,17 +521,18 @@ namespace SystemPeso
             this.DashPanel.Controls.Add(this.NewApplicantsDDPanel);
             this.DashPanel.Controls.Add(this.NoOfEmployersLbl);
             this.DashPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DashPanel.Location = new System.Drawing.Point(200, 48);
+            this.DashPanel.Location = new System.Drawing.Point(267, 59);
+            this.DashPanel.Margin = new System.Windows.Forms.Padding(4);
             this.DashPanel.Name = "DashPanel";
-            this.DashPanel.Size = new System.Drawing.Size(1170, 681);
+            this.DashPanel.Size = new System.Drawing.Size(1560, 838);
             this.DashPanel.TabIndex = 2;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::SystemPeso.Properties.Resources.Metrics_amico;
-            this.pictureBox2.Location = new System.Drawing.Point(980, 543);
+            this.pictureBox2.Location = new System.Drawing.Point(1307, 668);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(178, 126);
+            this.pictureBox2.Size = new System.Drawing.Size(237, 155);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -555,19 +553,20 @@ namespace SystemPeso
             this.AddUserPanel.GradientAngle = 90F;
             this.AddUserPanel.GradientBottomColor = System.Drawing.Color.White;
             this.AddUserPanel.GradientTopColor = System.Drawing.Color.White;
-            this.AddUserPanel.Location = new System.Drawing.Point(442, 553);
+            this.AddUserPanel.Location = new System.Drawing.Point(589, 681);
+            this.AddUserPanel.Margin = new System.Windows.Forms.Padding(4);
             this.AddUserPanel.Name = "AddUserPanel";
-            this.AddUserPanel.Size = new System.Drawing.Size(532, 116);
+            this.AddUserPanel.Size = new System.Drawing.Size(709, 143);
             this.AddUserPanel.TabIndex = 26;
             // 
             // AddHomeownerBTN
             // 
             this.AddHomeownerBTN.FlatAppearance.BorderSize = 0;
             this.AddHomeownerBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddHomeownerBTN.Image = global::SystemPeso.Properties.Resources.icons8_person_at_home_701;
-            this.AddHomeownerBTN.Location = new System.Drawing.Point(397, 15);
+            this.AddHomeownerBTN.Location = new System.Drawing.Point(529, 18);
+            this.AddHomeownerBTN.Margin = new System.Windows.Forms.Padding(4);
             this.AddHomeownerBTN.Name = "AddHomeownerBTN";
-            this.AddHomeownerBTN.Size = new System.Drawing.Size(75, 72);
+            this.AddHomeownerBTN.Size = new System.Drawing.Size(100, 89);
             this.AddHomeownerBTN.TabIndex = 5;
             this.AddHomeownerBTN.UseVisualStyleBackColor = true;
             this.AddHomeownerBTN.Click += new System.EventHandler(this.AddHomeownerBTN_Click);
@@ -576,10 +575,10 @@ namespace SystemPeso
             // 
             this.AddEmloyerBTN.FlatAppearance.BorderSize = 0;
             this.AddEmloyerBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddEmloyerBTN.Image = global::SystemPeso.Properties.Resources.icons8_employee_70;
-            this.AddEmloyerBTN.Location = new System.Drawing.Point(218, 17);
+            this.AddEmloyerBTN.Location = new System.Drawing.Point(291, 21);
+            this.AddEmloyerBTN.Margin = new System.Windows.Forms.Padding(4);
             this.AddEmloyerBTN.Name = "AddEmloyerBTN";
-            this.AddEmloyerBTN.Size = new System.Drawing.Size(75, 68);
+            this.AddEmloyerBTN.Size = new System.Drawing.Size(100, 84);
             this.AddEmloyerBTN.TabIndex = 4;
             this.AddEmloyerBTN.UseVisualStyleBackColor = true;
             this.AddEmloyerBTN.Click += new System.EventHandler(this.AddEmloyerBTN_Click);
@@ -588,10 +587,10 @@ namespace SystemPeso
             // 
             this.AddApplicantsBTN.FlatAppearance.BorderSize = 0;
             this.AddApplicantsBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddApplicantsBTN.Image = global::SystemPeso.Properties.Resources.icons8_workers_70;
-            this.AddApplicantsBTN.Location = new System.Drawing.Point(46, 15);
+            this.AddApplicantsBTN.Location = new System.Drawing.Point(61, 18);
+            this.AddApplicantsBTN.Margin = new System.Windows.Forms.Padding(4);
             this.AddApplicantsBTN.Name = "AddApplicantsBTN";
-            this.AddApplicantsBTN.Size = new System.Drawing.Size(75, 68);
+            this.AddApplicantsBTN.Size = new System.Drawing.Size(100, 84);
             this.AddApplicantsBTN.TabIndex = 3;
             this.AddApplicantsBTN.UseVisualStyleBackColor = true;
             this.AddApplicantsBTN.Click += new System.EventHandler(this.AddApplicantsBTN_Click);
@@ -600,9 +599,10 @@ namespace SystemPeso
             // 
             this.AddHomeownerLBL.AutoSize = true;
             this.AddHomeownerLBL.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddHomeownerLBL.Location = new System.Drawing.Point(373, 90);
+            this.AddHomeownerLBL.Location = new System.Drawing.Point(497, 111);
+            this.AddHomeownerLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AddHomeownerLBL.Name = "AddHomeownerLBL";
-            this.AddHomeownerLBL.Size = new System.Drawing.Size(108, 17);
+            this.AddHomeownerLBL.Size = new System.Drawing.Size(135, 20);
             this.AddHomeownerLBL.TabIndex = 2;
             this.AddHomeownerLBL.Text = "Add Homeowner";
             this.AddHomeownerLBL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -611,9 +611,10 @@ namespace SystemPeso
             // 
             this.AddEmployerLbl.AutoSize = true;
             this.AddEmployerLbl.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddEmployerLbl.Location = new System.Drawing.Point(215, 90);
+            this.AddEmployerLbl.Location = new System.Drawing.Point(287, 111);
+            this.AddEmployerLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AddEmployerLbl.Name = "AddEmployerLbl";
-            this.AddEmployerLbl.Size = new System.Drawing.Size(90, 17);
+            this.AddEmployerLbl.Size = new System.Drawing.Size(111, 20);
             this.AddEmployerLbl.TabIndex = 2;
             this.AddEmployerLbl.Text = "Add Employer";
             this.AddEmployerLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -622,9 +623,10 @@ namespace SystemPeso
             // 
             this.AddApplicantsLbl.AutoSize = true;
             this.AddApplicantsLbl.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddApplicantsLbl.Location = new System.Drawing.Point(36, 90);
+            this.AddApplicantsLbl.Location = new System.Drawing.Point(48, 111);
+            this.AddApplicantsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AddApplicantsLbl.Name = "AddApplicantsLbl";
-            this.AddApplicantsLbl.Size = new System.Drawing.Size(100, 17);
+            this.AddApplicantsLbl.Size = new System.Drawing.Size(121, 20);
             this.AddApplicantsLbl.TabIndex = 2;
             this.AddApplicantsLbl.Text = "Add Applicants";
             this.AddApplicantsLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -633,18 +635,20 @@ namespace SystemPeso
             // 
             this.guna2VSeparator5.FillColor = System.Drawing.Color.Silver;
             this.guna2VSeparator5.FillThickness = 2;
-            this.guna2VSeparator5.Location = new System.Drawing.Point(337, 28);
+            this.guna2VSeparator5.Location = new System.Drawing.Point(449, 34);
+            this.guna2VSeparator5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2VSeparator5.Name = "guna2VSeparator5";
-            this.guna2VSeparator5.Size = new System.Drawing.Size(10, 58);
+            this.guna2VSeparator5.Size = new System.Drawing.Size(13, 71);
             this.guna2VSeparator5.TabIndex = 1;
             // 
             // guna2VSeparator4
             // 
             this.guna2VSeparator4.FillColor = System.Drawing.Color.Silver;
             this.guna2VSeparator4.FillThickness = 2;
-            this.guna2VSeparator4.Location = new System.Drawing.Point(158, 28);
+            this.guna2VSeparator4.Location = new System.Drawing.Point(211, 34);
+            this.guna2VSeparator4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2VSeparator4.Name = "guna2VSeparator4";
-            this.guna2VSeparator4.Size = new System.Drawing.Size(10, 58);
+            this.guna2VSeparator4.Size = new System.Drawing.Size(13, 71);
             this.guna2VSeparator4.TabIndex = 1;
             // 
             // SearchUTB
@@ -653,11 +657,11 @@ namespace SystemPeso
             this.SearchUTB.BorderColor = System.Drawing.Color.Black;
             this.SearchUTB.BorderSize = 2;
             this.SearchUTB.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SearchUTB.Location = new System.Drawing.Point(674, 36);
-            this.SearchUTB.Margin = new System.Windows.Forms.Padding(5);
+            this.SearchUTB.Location = new System.Drawing.Point(899, 44);
+            this.SearchUTB.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.SearchUTB.Name = "SearchUTB";
-            this.SearchUTB.Padding = new System.Windows.Forms.Padding(7);
-            this.SearchUTB.Size = new System.Drawing.Size(250, 36);
+            this.SearchUTB.Padding = new System.Windows.Forms.Padding(9);
+            this.SearchUTB.Size = new System.Drawing.Size(333, 43);
             this.SearchUTB.TabIndex = 25;
             this.SearchUTB.UnderLineStyle = true;
             // 
@@ -672,9 +676,10 @@ namespace SystemPeso
             this.DatePanel.GradientAngle = 90F;
             this.DatePanel.GradientBottomColor = System.Drawing.Color.White;
             this.DatePanel.GradientTopColor = System.Drawing.Color.White;
-            this.DatePanel.Location = new System.Drawing.Point(799, 296);
+            this.DatePanel.Location = new System.Drawing.Point(1065, 364);
+            this.DatePanel.Margin = new System.Windows.Forms.Padding(4);
             this.DatePanel.Name = "DatePanel";
-            this.DatePanel.Size = new System.Drawing.Size(359, 102);
+            this.DatePanel.Size = new System.Drawing.Size(479, 126);
             this.DatePanel.TabIndex = 23;
             this.DatePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.DatePanel_Paint);
             // 
@@ -683,9 +688,10 @@ namespace SystemPeso
             this.CalendarBTN.FlatAppearance.BorderSize = 0;
             this.CalendarBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CalendarBTN.Image = global::SystemPeso.Properties.Resources.calendar;
-            this.CalendarBTN.Location = new System.Drawing.Point(298, 34);
+            this.CalendarBTN.Location = new System.Drawing.Point(397, 42);
+            this.CalendarBTN.Margin = new System.Windows.Forms.Padding(4);
             this.CalendarBTN.Name = "CalendarBTN";
-            this.CalendarBTN.Size = new System.Drawing.Size(37, 36);
+            this.CalendarBTN.Size = new System.Drawing.Size(49, 44);
             this.CalendarBTN.TabIndex = 1;
             this.CalendarBTN.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.CalendarBTN.UseVisualStyleBackColor = true;
@@ -694,9 +700,10 @@ namespace SystemPeso
             // TodayDateLbl
             // 
             this.TodayDateLbl.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TodayDateLbl.Location = new System.Drawing.Point(7, 8);
+            this.TodayDateLbl.Location = new System.Drawing.Point(9, 10);
+            this.TodayDateLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TodayDateLbl.Name = "TodayDateLbl";
-            this.TodayDateLbl.Size = new System.Drawing.Size(289, 82);
+            this.TodayDateLbl.Size = new System.Drawing.Size(385, 101);
             this.TodayDateLbl.TabIndex = 0;
             this.TodayDateLbl.Text = "Date, Month, Day, Year";
             this.TodayDateLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -710,9 +717,10 @@ namespace SystemPeso
             this.DigitalClock.GradientAngle = 90F;
             this.DigitalClock.GradientBottomColor = System.Drawing.Color.White;
             this.DigitalClock.GradientTopColor = System.Drawing.Color.White;
-            this.DigitalClock.Location = new System.Drawing.Point(442, 296);
+            this.DigitalClock.Location = new System.Drawing.Point(589, 364);
+            this.DigitalClock.Margin = new System.Windows.Forms.Padding(4);
             this.DigitalClock.Name = "DigitalClock";
-            this.DigitalClock.Size = new System.Drawing.Size(337, 102);
+            this.DigitalClock.Size = new System.Drawing.Size(449, 126);
             this.DigitalClock.TabIndex = 22;
             this.DigitalClock.Paint += new System.Windows.Forms.PaintEventHandler(this.DigitalClock_Paint);
             // 
@@ -720,16 +728,16 @@ namespace SystemPeso
             // 
             this.StatusLbl.AutoSize = true;
             this.StatusLbl.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StatusLbl.Location = new System.Drawing.Point(58, 32);
+            this.StatusLbl.Location = new System.Drawing.Point(77, 39);
+            this.StatusLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.StatusLbl.Name = "StatusLbl";
-            this.StatusLbl.Size = new System.Drawing.Size(166, 44);
+            this.StatusLbl.Size = new System.Drawing.Size(207, 57);
             this.StatusLbl.TabIndex = 0;
             this.StatusLbl.Text = "00:00:00";
             // 
             // ChartPanel
             // 
-            this.ChartPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.ChartPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left)));
             this.ChartPanel.BackColor = System.Drawing.Color.White;
             this.ChartPanel.BorderRadius = 30;
             this.ChartPanel.Controls.Add(this.RegisteredUserChart);
@@ -737,9 +745,10 @@ namespace SystemPeso
             this.ChartPanel.GradientAngle = 90F;
             this.ChartPanel.GradientBottomColor = System.Drawing.Color.White;
             this.ChartPanel.GradientTopColor = System.Drawing.Color.White;
-            this.ChartPanel.Location = new System.Drawing.Point(19, 296);
+            this.ChartPanel.Location = new System.Drawing.Point(25, 364);
+            this.ChartPanel.Margin = new System.Windows.Forms.Padding(4);
             this.ChartPanel.Name = "ChartPanel";
-            this.ChartPanel.Size = new System.Drawing.Size(400, 373);
+            this.ChartPanel.Size = new System.Drawing.Size(533, 459);
             this.ChartPanel.TabIndex = 21;
             // 
             // RegisteredUserChart
@@ -750,7 +759,8 @@ namespace SystemPeso
             legend1.Enabled = false;
             legend1.Name = "Legend1";
             this.RegisteredUserChart.Legends.Add(legend1);
-            this.RegisteredUserChart.Location = new System.Drawing.Point(30, 25);
+            this.RegisteredUserChart.Location = new System.Drawing.Point(40, 31);
+            this.RegisteredUserChart.Margin = new System.Windows.Forms.Padding(4);
             this.RegisteredUserChart.Name = "RegisteredUserChart";
             this.RegisteredUserChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
             series1.ChartArea = "ChartArea1";
@@ -760,7 +770,7 @@ namespace SystemPeso
             series1.Legend = "Legend1";
             series1.Name = "RegisteredUser";
             this.RegisteredUserChart.Series.Add(series1);
-            this.RegisteredUserChart.Size = new System.Drawing.Size(350, 317);
+            this.RegisteredUserChart.Size = new System.Drawing.Size(467, 390);
             this.RegisteredUserChart.TabIndex = 0;
             this.RegisteredUserChart.Text = "chart1";
             title1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -778,9 +788,10 @@ namespace SystemPeso
             this.UserPB.BorderSize = 2;
             this.UserPB.GradientAngle = 50F;
             this.UserPB.Image = ((System.Drawing.Image)(resources.GetObject("UserPB.Image")));
-            this.UserPB.Location = new System.Drawing.Point(1068, 29);
+            this.UserPB.Location = new System.Drawing.Point(1424, 36);
+            this.UserPB.Margin = new System.Windows.Forms.Padding(4);
             this.UserPB.Name = "UserPB";
-            this.UserPB.Size = new System.Drawing.Size(53, 53);
+            this.UserPB.Size = new System.Drawing.Size(71, 71);
             this.UserPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.UserPB.TabIndex = 18;
             this.UserPB.TabStop = false;
@@ -791,9 +802,10 @@ namespace SystemPeso
             this.NotificationBtn.FlatAppearance.BorderSize = 0;
             this.NotificationBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NotificationBtn.Image = global::SystemPeso.Properties.Resources.bell;
-            this.NotificationBtn.Location = new System.Drawing.Point(1028, 35);
+            this.NotificationBtn.Location = new System.Drawing.Point(1371, 43);
+            this.NotificationBtn.Margin = new System.Windows.Forms.Padding(4);
             this.NotificationBtn.Name = "NotificationBtn";
-            this.NotificationBtn.Size = new System.Drawing.Size(42, 37);
+            this.NotificationBtn.Size = new System.Drawing.Size(56, 46);
             this.NotificationBtn.TabIndex = 17;
             this.NotificationBtn.UseVisualStyleBackColor = false;
             // 
@@ -803,11 +815,13 @@ namespace SystemPeso
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(980, 35);
+            this.button2.Location = new System.Drawing.Point(1307, 43);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(42, 37);
+            this.button2.Size = new System.Drawing.Size(56, 46);
             this.button2.TabIndex = 17;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // customPanel7
             // 
@@ -828,18 +842,20 @@ namespace SystemPeso
             this.customPanel7.GradientAngle = 90F;
             this.customPanel7.GradientBottomColor = System.Drawing.Color.White;
             this.customPanel7.GradientTopColor = System.Drawing.Color.White;
-            this.customPanel7.Location = new System.Drawing.Point(442, 418);
+            this.customPanel7.Location = new System.Drawing.Point(589, 514);
+            this.customPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.customPanel7.Name = "customPanel7";
-            this.customPanel7.Size = new System.Drawing.Size(716, 119);
+            this.customPanel7.Size = new System.Drawing.Size(955, 146);
             this.customPanel7.TabIndex = 16;
             // 
             // CalculatorLbl
             // 
             this.CalculatorLbl.AutoSize = true;
             this.CalculatorLbl.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalculatorLbl.Location = new System.Drawing.Point(590, 86);
+            this.CalculatorLbl.Location = new System.Drawing.Point(787, 106);
+            this.CalculatorLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CalculatorLbl.Name = "CalculatorLbl";
-            this.CalculatorLbl.Size = new System.Drawing.Size(71, 17);
+            this.CalculatorLbl.Size = new System.Drawing.Size(86, 20);
             this.CalculatorLbl.TabIndex = 2;
             this.CalculatorLbl.Text = "Calculator";
             this.CalculatorLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -848,9 +864,10 @@ namespace SystemPeso
             // 
             this.PowerPointLbl.AutoSize = true;
             this.PowerPointLbl.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PowerPointLbl.Location = new System.Drawing.Point(406, 86);
+            this.PowerPointLbl.Location = new System.Drawing.Point(541, 106);
+            this.PowerPointLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PowerPointLbl.Name = "PowerPointLbl";
-            this.PowerPointLbl.Size = new System.Drawing.Size(75, 17);
+            this.PowerPointLbl.Size = new System.Drawing.Size(93, 20);
             this.PowerPointLbl.TabIndex = 2;
             this.PowerPointLbl.Text = "PowerPoint";
             this.PowerPointLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -859,9 +876,10 @@ namespace SystemPeso
             // 
             this.ExcelLbl.AutoSize = true;
             this.ExcelLbl.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExcelLbl.Location = new System.Drawing.Point(236, 86);
+            this.ExcelLbl.Location = new System.Drawing.Point(315, 106);
+            this.ExcelLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ExcelLbl.Name = "ExcelLbl";
-            this.ExcelLbl.Size = new System.Drawing.Size(39, 17);
+            this.ExcelLbl.Size = new System.Drawing.Size(47, 20);
             this.ExcelLbl.TabIndex = 2;
             this.ExcelLbl.Text = "Excel";
             this.ExcelLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -870,9 +888,10 @@ namespace SystemPeso
             // 
             this.WordLbl.AutoSize = true;
             this.WordLbl.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WordLbl.Location = new System.Drawing.Point(57, 91);
+            this.WordLbl.Location = new System.Drawing.Point(76, 112);
+            this.WordLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.WordLbl.Name = "WordLbl";
-            this.WordLbl.Size = new System.Drawing.Size(41, 17);
+            this.WordLbl.Size = new System.Drawing.Size(49, 20);
             this.WordLbl.TabIndex = 2;
             this.WordLbl.Text = "Word";
             this.WordLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -881,27 +900,30 @@ namespace SystemPeso
             // 
             this.guna2VSeparator3.FillColor = System.Drawing.Color.Silver;
             this.guna2VSeparator3.FillThickness = 2;
-            this.guna2VSeparator3.Location = new System.Drawing.Point(526, 25);
+            this.guna2VSeparator3.Location = new System.Drawing.Point(701, 31);
+            this.guna2VSeparator3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2VSeparator3.Name = "guna2VSeparator3";
-            this.guna2VSeparator3.Size = new System.Drawing.Size(10, 58);
+            this.guna2VSeparator3.Size = new System.Drawing.Size(13, 71);
             this.guna2VSeparator3.TabIndex = 1;
             // 
             // guna2VSeparator2
             // 
             this.guna2VSeparator2.FillColor = System.Drawing.Color.Silver;
             this.guna2VSeparator2.FillThickness = 2;
-            this.guna2VSeparator2.Location = new System.Drawing.Point(337, 25);
+            this.guna2VSeparator2.Location = new System.Drawing.Point(449, 31);
+            this.guna2VSeparator2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2VSeparator2.Name = "guna2VSeparator2";
-            this.guna2VSeparator2.Size = new System.Drawing.Size(10, 58);
+            this.guna2VSeparator2.Size = new System.Drawing.Size(13, 71);
             this.guna2VSeparator2.TabIndex = 1;
             // 
             // guna2VSeparator1
             // 
             this.guna2VSeparator1.FillColor = System.Drawing.Color.Silver;
             this.guna2VSeparator1.FillThickness = 2;
-            this.guna2VSeparator1.Location = new System.Drawing.Point(158, 30);
+            this.guna2VSeparator1.Location = new System.Drawing.Point(211, 37);
+            this.guna2VSeparator1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2VSeparator1.Name = "guna2VSeparator1";
-            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 58);
+            this.guna2VSeparator1.Size = new System.Drawing.Size(13, 71);
             this.guna2VSeparator1.TabIndex = 1;
             // 
             // CalcuBTN
@@ -909,9 +931,10 @@ namespace SystemPeso
             this.CalcuBTN.FlatAppearance.BorderSize = 0;
             this.CalcuBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CalcuBTN.Image = global::SystemPeso.Properties.Resources.calculator;
-            this.CalcuBTN.Location = new System.Drawing.Point(590, 12);
+            this.CalcuBTN.Location = new System.Drawing.Point(787, 15);
+            this.CalcuBTN.Margin = new System.Windows.Forms.Padding(4);
             this.CalcuBTN.Name = "CalcuBTN";
-            this.CalcuBTN.Size = new System.Drawing.Size(75, 71);
+            this.CalcuBTN.Size = new System.Drawing.Size(100, 87);
             this.CalcuBTN.TabIndex = 0;
             this.CalcuBTN.UseVisualStyleBackColor = true;
             this.CalcuBTN.Click += new System.EventHandler(this.CalcuBTN_Click);
@@ -921,9 +944,10 @@ namespace SystemPeso
             this.MSPowerpointBTN.FlatAppearance.BorderSize = 0;
             this.MSPowerpointBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MSPowerpointBTN.Image = global::SystemPeso.Properties.Resources.powerpoint;
-            this.MSPowerpointBTN.Location = new System.Drawing.Point(397, 12);
+            this.MSPowerpointBTN.Location = new System.Drawing.Point(529, 15);
+            this.MSPowerpointBTN.Margin = new System.Windows.Forms.Padding(4);
             this.MSPowerpointBTN.Name = "MSPowerpointBTN";
-            this.MSPowerpointBTN.Size = new System.Drawing.Size(75, 71);
+            this.MSPowerpointBTN.Size = new System.Drawing.Size(100, 87);
             this.MSPowerpointBTN.TabIndex = 0;
             this.MSPowerpointBTN.UseVisualStyleBackColor = true;
             this.MSPowerpointBTN.Click += new System.EventHandler(this.MSPowerpointBTN_Click);
@@ -933,9 +957,10 @@ namespace SystemPeso
             this.MSExcelBTN.FlatAppearance.BorderSize = 0;
             this.MSExcelBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MSExcelBTN.Image = global::SystemPeso.Properties.Resources.excel;
-            this.MSExcelBTN.Location = new System.Drawing.Point(218, 12);
+            this.MSExcelBTN.Location = new System.Drawing.Point(291, 15);
+            this.MSExcelBTN.Margin = new System.Windows.Forms.Padding(4);
             this.MSExcelBTN.Name = "MSExcelBTN";
-            this.MSExcelBTN.Size = new System.Drawing.Size(75, 71);
+            this.MSExcelBTN.Size = new System.Drawing.Size(100, 87);
             this.MSExcelBTN.TabIndex = 0;
             this.MSExcelBTN.UseVisualStyleBackColor = true;
             this.MSExcelBTN.Click += new System.EventHandler(this.MSExcelBTN_Click);
@@ -945,9 +970,10 @@ namespace SystemPeso
             this.MSWordBTN.FlatAppearance.BorderSize = 0;
             this.MSWordBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MSWordBTN.Image = global::SystemPeso.Properties.Resources.word;
-            this.MSWordBTN.Location = new System.Drawing.Point(46, 17);
+            this.MSWordBTN.Location = new System.Drawing.Point(61, 21);
+            this.MSWordBTN.Margin = new System.Windows.Forms.Padding(4);
             this.MSWordBTN.Name = "MSWordBTN";
-            this.MSWordBTN.Size = new System.Drawing.Size(75, 71);
+            this.MSWordBTN.Size = new System.Drawing.Size(100, 87);
             this.MSWordBTN.TabIndex = 0;
             this.MSWordBTN.UseVisualStyleBackColor = true;
             this.MSWordBTN.Click += new System.EventHandler(this.MSWordBTN_Click);
@@ -963,9 +989,10 @@ namespace SystemPeso
             this.NoOfInquiriesDDPanel.GradientAngle = 90F;
             this.NoOfInquiriesDDPanel.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.NoOfInquiriesDDPanel.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
-            this.NoOfInquiriesDDPanel.Location = new System.Drawing.Point(898, 138);
+            this.NoOfInquiriesDDPanel.Location = new System.Drawing.Point(1197, 170);
+            this.NoOfInquiriesDDPanel.Margin = new System.Windows.Forms.Padding(4);
             this.NoOfInquiriesDDPanel.Name = "NoOfInquiriesDDPanel";
-            this.NoOfInquiriesDDPanel.Size = new System.Drawing.Size(236, 133);
+            this.NoOfInquiriesDDPanel.Size = new System.Drawing.Size(315, 164);
             this.NoOfInquiriesDDPanel.TabIndex = 11;
             // 
             // NoOfInquiresLbl
@@ -973,9 +1000,10 @@ namespace SystemPeso
             this.NoOfInquiresLbl.BackColor = System.Drawing.Color.Transparent;
             this.NoOfInquiresLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NoOfInquiresLbl.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NoOfInquiresLbl.Location = new System.Drawing.Point(16, 49);
+            this.NoOfInquiresLbl.Location = new System.Drawing.Point(21, 60);
+            this.NoOfInquiresLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NoOfInquiresLbl.Name = "NoOfInquiresLbl";
-            this.NoOfInquiresLbl.Size = new System.Drawing.Size(77, 46);
+            this.NoOfInquiresLbl.Size = new System.Drawing.Size(103, 57);
             this.NoOfInquiresLbl.TabIndex = 1;
             this.NoOfInquiresLbl.Text = "No.";
             this.NoOfInquiresLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -986,9 +1014,10 @@ namespace SystemPeso
             this.InquiresLbl.BackColor = System.Drawing.Color.Transparent;
             this.InquiresLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.InquiresLbl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InquiresLbl.Location = new System.Drawing.Point(18, 95);
+            this.InquiresLbl.Location = new System.Drawing.Point(24, 117);
+            this.InquiresLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.InquiresLbl.Name = "InquiresLbl";
-            this.InquiresLbl.Size = new System.Drawing.Size(69, 19);
+            this.InquiresLbl.Size = new System.Drawing.Size(86, 23);
             this.InquiresLbl.TabIndex = 1;
             this.InquiresLbl.Text = "Inquires";
             // 
@@ -999,9 +1028,10 @@ namespace SystemPeso
             this.InquiriesBTN.FlatAppearance.BorderSize = 0;
             this.InquiriesBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.InquiriesBTN.Image = global::SystemPeso.Properties.Resources.chat;
-            this.InquiriesBTN.Location = new System.Drawing.Point(143, 12);
+            this.InquiriesBTN.Location = new System.Drawing.Point(191, 15);
+            this.InquiriesBTN.Margin = new System.Windows.Forms.Padding(4);
             this.InquiriesBTN.Name = "InquiriesBTN";
-            this.InquiriesBTN.Size = new System.Drawing.Size(75, 70);
+            this.InquiriesBTN.Size = new System.Drawing.Size(100, 86);
             this.InquiriesBTN.TabIndex = 0;
             this.InquiriesBTN.UseVisualStyleBackColor = false;
             // 
@@ -1016,9 +1046,10 @@ namespace SystemPeso
             this.NewJobPostDDPanel.GradientAngle = 90F;
             this.NewJobPostDDPanel.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(218)))), ((int)(((byte)(255)))));
             this.NewJobPostDDPanel.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(218)))), ((int)(((byte)(255)))));
-            this.NewJobPostDDPanel.Location = new System.Drawing.Point(611, 139);
+            this.NewJobPostDDPanel.Location = new System.Drawing.Point(815, 171);
+            this.NewJobPostDDPanel.Margin = new System.Windows.Forms.Padding(4);
             this.NewJobPostDDPanel.Name = "NewJobPostDDPanel";
-            this.NewJobPostDDPanel.Size = new System.Drawing.Size(258, 134);
+            this.NewJobPostDDPanel.Size = new System.Drawing.Size(344, 165);
             this.NewJobPostDDPanel.TabIndex = 10;
             // 
             // NoOfJobPostLbl
@@ -1026,9 +1057,10 @@ namespace SystemPeso
             this.NoOfJobPostLbl.BackColor = System.Drawing.Color.Transparent;
             this.NoOfJobPostLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NoOfJobPostLbl.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NoOfJobPostLbl.Location = new System.Drawing.Point(14, 48);
+            this.NoOfJobPostLbl.Location = new System.Drawing.Point(19, 59);
+            this.NoOfJobPostLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NoOfJobPostLbl.Name = "NoOfJobPostLbl";
-            this.NoOfJobPostLbl.Size = new System.Drawing.Size(77, 46);
+            this.NoOfJobPostLbl.Size = new System.Drawing.Size(103, 57);
             this.NoOfJobPostLbl.TabIndex = 1;
             this.NoOfJobPostLbl.Text = "No.";
             this.NoOfJobPostLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1040,9 +1072,10 @@ namespace SystemPeso
             this.JobPostLbl.BackColor = System.Drawing.Color.Transparent;
             this.JobPostLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.JobPostLbl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JobPostLbl.Location = new System.Drawing.Point(16, 94);
+            this.JobPostLbl.Location = new System.Drawing.Point(21, 116);
+            this.JobPostLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.JobPostLbl.Name = "JobPostLbl";
-            this.JobPostLbl.Size = new System.Drawing.Size(71, 19);
+            this.JobPostLbl.Size = new System.Drawing.Size(91, 23);
             this.JobPostLbl.TabIndex = 1;
             this.JobPostLbl.Text = "Job Post";
             // 
@@ -1052,10 +1085,10 @@ namespace SystemPeso
             this.JobPostPostedBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(218)))), ((int)(((byte)(255)))));
             this.JobPostPostedBTN.FlatAppearance.BorderSize = 0;
             this.JobPostPostedBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.JobPostPostedBTN.Image = global::SystemPeso.Properties.Resources.sticky_notes__1_;
-            this.JobPostPostedBTN.Location = new System.Drawing.Point(167, 11);
+            this.JobPostPostedBTN.Location = new System.Drawing.Point(223, 14);
+            this.JobPostPostedBTN.Margin = new System.Windows.Forms.Padding(4);
             this.JobPostPostedBTN.Name = "JobPostPostedBTN";
-            this.JobPostPostedBTN.Size = new System.Drawing.Size(75, 70);
+            this.JobPostPostedBTN.Size = new System.Drawing.Size(100, 86);
             this.JobPostPostedBTN.TabIndex = 0;
             this.JobPostPostedBTN.UseVisualStyleBackColor = false;
             this.JobPostPostedBTN.Click += new System.EventHandler(this.JobPostPostedBTN_Click);
@@ -1071,9 +1104,10 @@ namespace SystemPeso
             this.NewEmployersDDPanel.GradientAngle = 90F;
             this.NewEmployersDDPanel.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(196)))), ((int)(((byte)(255)))));
             this.NewEmployersDDPanel.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(196)))), ((int)(((byte)(255)))));
-            this.NewEmployersDDPanel.Location = new System.Drawing.Point(323, 138);
+            this.NewEmployersDDPanel.Location = new System.Drawing.Point(431, 170);
+            this.NewEmployersDDPanel.Margin = new System.Windows.Forms.Padding(4);
             this.NewEmployersDDPanel.Name = "NewEmployersDDPanel";
-            this.NewEmployersDDPanel.Size = new System.Drawing.Size(256, 135);
+            this.NewEmployersDDPanel.Size = new System.Drawing.Size(341, 166);
             this.NewEmployersDDPanel.TabIndex = 9;
             // 
             // NewEmployersNoLbl
@@ -1081,9 +1115,10 @@ namespace SystemPeso
             this.NewEmployersNoLbl.BackColor = System.Drawing.Color.Transparent;
             this.NewEmployersNoLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NewEmployersNoLbl.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NewEmployersNoLbl.Location = new System.Drawing.Point(12, 49);
+            this.NewEmployersNoLbl.Location = new System.Drawing.Point(16, 60);
+            this.NewEmployersNoLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NewEmployersNoLbl.Name = "NewEmployersNoLbl";
-            this.NewEmployersNoLbl.Size = new System.Drawing.Size(77, 46);
+            this.NewEmployersNoLbl.Size = new System.Drawing.Size(103, 57);
             this.NewEmployersNoLbl.TabIndex = 1;
             this.NewEmployersNoLbl.Text = "No.";
             this.NewEmployersNoLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1095,9 +1130,10 @@ namespace SystemPeso
             this.NewEmployersLbl.BackColor = System.Drawing.Color.Transparent;
             this.NewEmployersLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NewEmployersLbl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NewEmployersLbl.Location = new System.Drawing.Point(13, 95);
+            this.NewEmployersLbl.Location = new System.Drawing.Point(17, 117);
+            this.NewEmployersLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NewEmployersLbl.Name = "NewEmployersLbl";
-            this.NewEmployersLbl.Size = new System.Drawing.Size(127, 19);
+            this.NewEmployersLbl.Size = new System.Drawing.Size(160, 23);
             this.NewEmployersLbl.TabIndex = 1;
             this.NewEmployersLbl.Text = "New Employers";
             // 
@@ -1108,9 +1144,10 @@ namespace SystemPeso
             this.NewEmployersBTN.FlatAppearance.BorderSize = 0;
             this.NewEmployersBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NewEmployersBTN.Image = global::SystemPeso.Properties.Resources.businessman;
-            this.NewEmployersBTN.Location = new System.Drawing.Point(162, 12);
+            this.NewEmployersBTN.Location = new System.Drawing.Point(216, 15);
+            this.NewEmployersBTN.Margin = new System.Windows.Forms.Padding(4);
             this.NewEmployersBTN.Name = "NewEmployersBTN";
-            this.NewEmployersBTN.Size = new System.Drawing.Size(75, 70);
+            this.NewEmployersBTN.Size = new System.Drawing.Size(100, 86);
             this.NewEmployersBTN.TabIndex = 0;
             this.NewEmployersBTN.UseVisualStyleBackColor = false;
             this.NewEmployersBTN.Click += new System.EventHandler(this.NewEmployersBTN_Click);
@@ -1126,9 +1163,10 @@ namespace SystemPeso
             this.NewApplicantsDDPanel.GradientAngle = 90F;
             this.NewApplicantsDDPanel.GradientBottomColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.NewApplicantsDDPanel.GradientTopColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
-            this.NewApplicantsDDPanel.Location = new System.Drawing.Point(44, 139);
+            this.NewApplicantsDDPanel.Location = new System.Drawing.Point(59, 171);
+            this.NewApplicantsDDPanel.Margin = new System.Windows.Forms.Padding(4);
             this.NewApplicantsDDPanel.Name = "NewApplicantsDDPanel";
-            this.NewApplicantsDDPanel.Size = new System.Drawing.Size(248, 134);
+            this.NewApplicantsDDPanel.Size = new System.Drawing.Size(331, 165);
             this.NewApplicantsDDPanel.TabIndex = 8;
             // 
             // NoOfApplicantsLbl
@@ -1136,9 +1174,10 @@ namespace SystemPeso
             this.NoOfApplicantsLbl.BackColor = System.Drawing.Color.Transparent;
             this.NoOfApplicantsLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NoOfApplicantsLbl.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NoOfApplicantsLbl.Location = new System.Drawing.Point(13, 48);
+            this.NoOfApplicantsLbl.Location = new System.Drawing.Point(17, 59);
+            this.NoOfApplicantsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NoOfApplicantsLbl.Name = "NoOfApplicantsLbl";
-            this.NoOfApplicantsLbl.Size = new System.Drawing.Size(77, 46);
+            this.NoOfApplicantsLbl.Size = new System.Drawing.Size(103, 57);
             this.NoOfApplicantsLbl.TabIndex = 1;
             this.NoOfApplicantsLbl.Text = "No.";
             this.NoOfApplicantsLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1150,9 +1189,10 @@ namespace SystemPeso
             this.NewApplicantsLbl.BackColor = System.Drawing.Color.Transparent;
             this.NewApplicantsLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NewApplicantsLbl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NewApplicantsLbl.Location = new System.Drawing.Point(13, 94);
+            this.NewApplicantsLbl.Location = new System.Drawing.Point(17, 116);
+            this.NewApplicantsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NewApplicantsLbl.Name = "NewApplicantsLbl";
-            this.NewApplicantsLbl.Size = new System.Drawing.Size(131, 19);
+            this.NewApplicantsLbl.Size = new System.Drawing.Size(164, 23);
             this.NewApplicantsLbl.TabIndex = 1;
             this.NewApplicantsLbl.Text = "New Applicants";
             // 
@@ -1161,20 +1201,20 @@ namespace SystemPeso
             this.NewApplicantsBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(178)))), ((int)(((byte)(255)))));
             this.NewApplicantsBTN.FlatAppearance.BorderSize = 0;
             this.NewApplicantsBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NewApplicantsBTN.Image = global::SystemPeso.Properties.Resources.employee__2_;
-            this.NewApplicantsBTN.Location = new System.Drawing.Point(155, 11);
+            this.NewApplicantsBTN.Location = new System.Drawing.Point(207, 14);
+            this.NewApplicantsBTN.Margin = new System.Windows.Forms.Padding(4);
             this.NewApplicantsBTN.Name = "NewApplicantsBTN";
-            this.NewApplicantsBTN.Size = new System.Drawing.Size(75, 70);
+            this.NewApplicantsBTN.Size = new System.Drawing.Size(100, 86);
             this.NewApplicantsBTN.TabIndex = 0;
             this.NewApplicantsBTN.UseVisualStyleBackColor = false;
             this.NewApplicantsBTN.Click += new System.EventHandler(this.NewApplicantsBTN_Click);
             // 
             // NoOfEmployersLbl
             // 
-            this.NoOfEmployersLbl.Image = global::SystemPeso.Properties.Resources.Untitled_2;
-            this.NoOfEmployersLbl.Location = new System.Drawing.Point(19, 20);
+            this.NoOfEmployersLbl.Location = new System.Drawing.Point(25, 25);
+            this.NoOfEmployersLbl.Margin = new System.Windows.Forms.Padding(4);
             this.NoOfEmployersLbl.Name = "NoOfEmployersLbl";
-            this.NoOfEmployersLbl.Size = new System.Drawing.Size(1139, 181);
+            this.NoOfEmployersLbl.Size = new System.Drawing.Size(1519, 223);
             this.NoOfEmployersLbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.NoOfEmployersLbl.TabIndex = 7;
             this.NoOfEmployersLbl.TabStop = false;
@@ -1188,15 +1228,16 @@ namespace SystemPeso
             // 
             // AdminDashForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.ClientSize = new System.Drawing.Size(1827, 897);
             this.Controls.Add(this.DashPanel);
             this.Controls.Add(this.TitleBarPanel);
             this.Controls.Add(this.CoreModulesPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MinimumSize = new System.Drawing.Size(450, 39);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MinimumSize = new System.Drawing.Size(598, 40);
             this.Name = "AdminDashForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminDashForm";
@@ -1231,7 +1272,6 @@ namespace SystemPeso
             this.NewApplicantsDDPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NoOfEmployersLbl)).EndInit();
             this.ResumeLayout(false);
-
         }
 
         #endregion
